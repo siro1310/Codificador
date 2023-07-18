@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <title>Encriptador</title>
+</head>
+<body>
+
+    <header class="logo-prin">
+        <img class="logo" src="/img/Logo.png" alt="">
+    </header>
+
+    <div class="container-encriptador">
+        
+        <div class="texto-encriptar">
+            
+            <textarea class="area-text" name="escribir texto" id="texto-encriptar" placeholder="Ingrese el texto aqui"></textarea>
+            <div class="texto-arribabtn">
+                <h6 class="text-sobrebtn">Solo letras minusculas</h6>
+            </div>
+            
+            <div class="btn">
+                <button class="btn-encriptar" onclick="btnEncriptar()"><b> Encriptar</b></button>
+                <button class="btn-desencriptar" onclick="btnDesencriptar()"><b>Desencriptar</b></button>
+            </div>
+        </div>
+
+        <div class="texto-desencriptar">
+            <div class="text-desencriptado">
+                <textarea class="mensaje"  cols="30" rows="10"></textarea>
+            </div>
+            <div class="muñeco-buscar">
+                <img class="muñeco-buscar" src="/img/Muñeco.png" alt="">
+
+            </div>
+            
+            <div class="copiar-btn"><b>Copiar</b></div>
+
+        </div>
+
+
+
+
+
+
+    </div>
+<script src="/script.js"></script>
+</body>
+</html>
